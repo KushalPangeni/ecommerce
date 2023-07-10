@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1044357519844",
+    "project_id": "ecommerce-42012",
+    "storage_bucket": "ecommerce-42012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044357519844:android:9863f92ca812100f0ecff1",
+        "android_client_info": {
+          "package_name": "com.simplycreative.ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044357519844-096t8fav9b2p1tg3s9evuj8sfq6kbqd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV9WzVxVZwc0ocaqVBMIB36Vhgmp-W9wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044357519844-096t8fav9b2p1tg3s9evuj8sfq6kbqd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -7,9 +7,12 @@ const email = "Email";
 const emailHint = 'admin@gmail.com';
 const forgetPass = "Forget Password";
 const home = "Home", categories = "Categories", cart = "Cart", account = "Account";
+const loggedin = "Logged In Successfully";
+const loggedout = "Logged Out Successfully";
 const login = "Log in";
 const loginWithn = "Log in with";
 const logout = "Log Out";
+
 //Cart
 const mywishlist = "My Wishlist",
     myorders = "My Orders",

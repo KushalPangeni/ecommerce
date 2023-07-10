@@ -13,6 +13,9 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //textcontroller
+    TextEditingController nameController = TextEditingController();
+    TextEditingController emailController = TextEditingController();
     return bgWidget(Scaffold(
       resizeToAvoidBottomInset: false,
       body: Center(
@@ -25,9 +28,9 @@ class LoginScreen extends StatelessWidget {
             15.heightBox,
             Column(
               children: [
-                customTextField(email, emailHint),
+                customTextField(email, emailHint, nameController),
                 5.heightBox,
-                customTextField(password, passwordHint),
+                customTextField(password, passwordHint, emailController),
                 Align(
                     alignment: Alignment.centerRight,
                     child: TextButton(onPressed: () {}, child: forgetPass.text.make())),
